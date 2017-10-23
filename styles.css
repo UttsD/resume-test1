@@ -1,0 +1,108 @@
+html, body, div, h1, h2, ul, li{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.shild{
+    width: 223px;
+    height: 223px;
+    border-radius: 50%;
+    border: 1px solid #3d6cb0;
+    position: relative;
+    
+
+}
+
+.shild::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #3d6cb0;
+}
+
+h1, h2, h3, .hero span{
+    text-transform: uppercase;
+}
+
+h1, {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.hero span{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+    color: #3d6cb0;
+}
+
+ .titles{
+    position: relative;
+    margin-left: 92px;
+    
+}
+
+.titles::before{
+    content: "";
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    left: -92px;
+    top: -25px;
+    border-radius: 50%;
+    background:  #3d6cb0;
+
+}
+
+.titles::after{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 150px;
+    width: 100%;
+    height: 5px;
+    background-color: #3d6cb0;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact li {
+    margin-bottom: 40px;
+    font-size: 14px;
+    list-style: none;
+    
+}
+.contact li:last-child {
+    margin-bottom: 0;
+}
+
+.skills li{
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.skill:after {
+    margin-top: 3px;
+    display: block;
+    color: #3d6cb0;
+    font-size: 26px;
+    content: '⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫';
+    
+}
+
